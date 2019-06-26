@@ -11,7 +11,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## Setting of the Project
 
 To Run the project follow below commands:
-* Pull the repro ``
-* Run the `npm install` in the root folder
-* After the successfull installation run the `npm start` in the root folder
+* Pull the repro from `https://github.com/nelakkiyaselvan/dataPeace.git`
+* Run the `npm install` in the dataPeace folder
+* After the successfull installation run the `npm start` in the dataPeace folder
 
