@@ -27,11 +27,11 @@ body {
 }
 
 .userTable {
-  margin-top: 20px;
+  margin: 30px;
 }
 
 .searchCont {
-  margin: 0 20px;
+  margin: 0 30px;
 }
 
 input.searchBox {
@@ -95,7 +95,15 @@ border-top: 5px solid black;
 
 .paginationCont {
   margin-top: 20px;
-  padding: 0 20px;
+  padding: 0 30px;
+  overflow: hidden;
+  width: 95%;
+  max-width: 1200px;
+  min-width: 1060px;
+}
+
+button {
+  user-select: none;
 }
 
 button.clsPrev {
@@ -113,7 +121,8 @@ button.clsNext {
 }
 
 button.paginBtn.disabled, button.btnPrevNext.disabled {
-  user-select: none;opacity: 0.6;
+  opacity: 0.6;
+  pointer-events: none;
 }
 
 button.paginBtn, button.btnPrevNext {
@@ -142,6 +151,16 @@ span.cls_left {
 span.cls_right {
   float: right;
   margin-right: 50px;
+}
+
+span.cls_fName {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+li.userDetail:first-child {
+  margin-bottom: 20px;
 }
 
 li.userDetail {
