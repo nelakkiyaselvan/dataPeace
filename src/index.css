@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 50px;
+  background-color: #4a9be0;
+  margin-bottom: 50px;
+}
+
+.headerIcon {
+  float: left;
+  width: 60px;
+  height: 40px;
+}
+
+.headerIcon img {
+  width: 40px;
+  margin: 5px;
+}
+
+.headerText {
+  float: left;
+  margin: 15px 20px;
+}
+
+.userTable {
+  margin-top: 20px;
+}
+
+.searchCont {
+  margin: 0 20px;
+}
+
+input.searchBox {
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  width: 250px;
+}
+
+.removeSearch.paginBtn {
+  margin-left: 20px;
+}
+
+.removeSearch.paginBtn.false {
+  display: none;
+}
+
+.removeSearch.paginBtn.true {
+  display: inline;
+}
+
+button.removeSearch.paginBtn:hover {
+  background-color: #2884de;
+  color: #FFFFFF;
+}
+
+table,th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.userTable th {
+  padding: 0 20px;
+  position: relative;
+  height: 50px;
+  cursor: default;
+  text-transform: capitalize;
+}
+
+.userTable tr {
+  height: 50px;
+}
+
+span.dropIcon  {
+content: '';
+position: absolute;
+top: 50%;
+left: 6px;
+transform: translateY(-50%);
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 5px solid black;
+}
+
+.sorted span.dropIcon {
+  border-bottom: 5px solid black;
+  border-top: 0;
+}
+
+.paginationCont {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+button.clsPrev {
+  float: left;
+}
+
+button.clsNext {
+  float: right;
+}
+
+.paginationList {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+}
+
+button.paginBtn.disabled, button.btnPrevNext.disabled {
+  user-select: none;opacity: 0.6;
+}
+
+button.paginBtn, button.btnPrevNext {
+  border: 1px solid grey;
+  width: 9%;
+  height: 30px;
+  background: none;
+}
+
+button.btnPrevNext {
+  border-radius: 20px;
+}
+
+button.paginBtn.selected {
+  background-color: #2884de;
+  color: #FFFFFF;
+}
+
+/* User Detail Page */
+
+span.cls_left {
+  float: left;
+  margin-left: 10px;
+}
+
+span.cls_right {
+  float: right;
+  margin-right: 50px;
+}
+
+li.userDetail {
+  width: 90%;
+  height: 25px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+li.userDetail:nth-child(1n+2) {
+  border-bottom: 1px solid;
+}
+
+/* User Detail Page */
